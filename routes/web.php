@@ -33,6 +33,7 @@ Route::get('/inicio', [UserControler::class,'inicio'])->name('inicio');
 Route::get('/login', [LoginControler::class,'index'])->name('index');
 Route::post('loginXT', [LoginControler::class,'store'])->name('store');
 Route::post('/salir', [LogoutController::class,'store'])->name('logout');
+Route::get('/login1', [LoginControler::class,'login1'])->name('login');
 Route::get('principal', [LogoutController::class,'principal'])->name('principal');
 Route::get('postMuro', [PostController::class, 'postMuro'])->name('postMuro');
 Route::get('/muro', [PostController::class, 'index'])->name('post.index');

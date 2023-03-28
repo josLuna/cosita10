@@ -10,6 +10,9 @@ class LoginControler extends Controller
     public function index(){
         return view('login');
     }
+    public function login1(){
+        return view('inicio');
+    }
     public function store(Request $request){
         $this->validate($request,[
             'email'=> 'required|string|email',

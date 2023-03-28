@@ -43,17 +43,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarExample01">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="{{'/'}}">Inicio</a>
+            </li>
             <li class="nav-item active">
-              <a class="nav-link" aria-current="page" href="{{'/'}}">Login</a>
+              <a class="nav-link" aria-current="page" href="{{'login1'}}">Login</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{'register'}}">Registrar</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Settings</a>
             </li>
           </ul>
         </div>
@@ -70,7 +70,7 @@
       <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
         <div class="d-flex justify-content-center align-items-center h-100">
           <div class="text-white">
-            <h1 class="mb-3">¡Vienvenido!  </h1>
+            <h1 class="mb-3">¡Bienvenido!  </h1>
             <h5 class="mb-4">Sistema especializado en contabilidad para tu negocio</h5>
             <a
               class="btn btn-outline-light btn-lg m-2"

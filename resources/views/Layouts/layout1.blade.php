@@ -122,9 +122,9 @@
               aria-expanded="false"
             >
               <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (31).webp"
+                src="https://assets.stickpng.com/thumbs/585e4bf3cb11b227491c339a.png"
                 class="rounded-circle"
-                height="22"
+                height="40"
                 alt="Avatar"
                 loading="lazy"
               />
