@@ -44,7 +44,7 @@
         <div class="collapse navbar-collapse" id="navbarExample01">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="{{'/'}}">Inicio</a>
+              <a class="nav-link" href="{{'/'}}">Start</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" aria-current="page" href="{{'login1'}}">Login</a>
@@ -74,7 +74,7 @@
             <h5 class="mb-4">Sistema especializado en contabilidad para tu negocio</h5>
             <a
               class="btn btn-outline-light btn-lg m-2"
-              href="https://www.youtube.com/watch?v=c9B4TPnak1A"
+              href="https://youtu.be/o7ZYPwkJmwA"
               role="button"
               rel="nofollow"
               target="_blank"
@@ -110,7 +110,7 @@
 
     <!-- Right -->
     <div>
-      <a href="" class="me-4 link-secondary">
+      <a href="https://www.facebook.com/gettmex.desarrollo" class="me-4 link-secondary">
         <i class="fab fa-facebook-f"></i>
       </a>
       <a href="" class="me-4 link-secondary">
@@ -158,16 +158,16 @@
             Products
           </h6>
           <p>
-            <a href="#!" class="text-reset">Angular</a>
+            <a href="#!" class="text-reset">Web page</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">React</a>
+            <a href="#!" class="text-reset">Android App's</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Vue</a>
+            <a href="#!" class="text-reset">Network services</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Laravel</a>
+            <a href="#!" class="text-reset">And other services</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -185,7 +185,7 @@
             <a href="#!" class="text-reset">Settings</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Orders</a>
+            <a href="#!" class="text-reset">Services</a>
           </p>
           <p>
             <a href="#!" class="text-reset">Help</a>
@@ -197,13 +197,13 @@
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+          <p><i class="fas fa-home me-3 text-secondary"></i>Jesus Maria, Ags. 20983</p>
           <p>
             <i class="fas fa-envelope me-3 text-secondary"></i>
-            info@example.com
+            soporte@gettmex.com
           </p>
-          <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> + 52 449 202 3805</p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> + 52 449 370 8859</p>
         </div>
         <!-- Grid column -->
       </div>
@@ -214,8 +214,8 @@
 
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="#">GETTMEX;</a>
   </div>
   <!-- Copyright -->
 </footer>

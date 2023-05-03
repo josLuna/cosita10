@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 class LogoutController extends Controller
 {
     public function principal(){
-        return view('inicio');
+        return view('login');
     }
     //
     public function store(){

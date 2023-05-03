@@ -3,15 +3,18 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Models\post;
 use Illuminate\Http\Request;
 
 class LoginControler extends Controller
 {
     public function index(){
-        return view('login');
+        $files = post::all();
+        return view('inicio',compact('files'));
     }
     public function login1(){
-        return view('inicio');
+
+        return view('login');
     }
     public function store(Request $request){
         $this->validate($request,[
@@ -25,5 +28,5 @@ class LoginControler extends Controller
         return to_route('inicio');
        //return redirect()->route('post.login');
     }
-    
+
 }

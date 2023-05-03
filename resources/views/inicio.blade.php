@@ -1,55 +1,30 @@
-@extends('Layouts.layout')
+@extends('Layouts.layoutSecundario')
 @section('titulo')
- login
+    Welcome!! look the posts
 @endsection
 @section('contenido')
-<form action="loginXT" method="POST">
-  @csrf
-  <!-- Email input -->
-  <div class="form-outline mb-4">
-    <input type="email" id="form2Example1" class="form-control" name="email" />
-    <label class="form-label" for="form2Example1">Email address</label>
-  </div>
-  @error('name')
-  <div class="alert alert-danger">{{ $message }}</div>
-  @enderror
-  <!-- Password input -->
-  <div class="form-outline mb-4">
-    <input type="password" id="form2Example2" class="form-control" name="password"/>
-    <label class="form-label" for="form2Example2">Password</label>
-  </div>
-  @error('name')
-  <div class="alert alert-danger">{{ $message }}</div>
-  @enderror
+    <div class="card border border-dark mt-2 mb-3">
+        <div class="card-body text-dark" style="background-color: rgba(128, 128, 128, 0.10)">
 
-    <div class="col">
-      <!-- Simple link -->
-      <a href="#!">Forgot password?</a>
+
+            <h1 class="card-title text-center">PUBLICACIONES</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                @foreach ($files as $post)
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="{{ asset('uploads') . '/' . $post->imagen }}" class="card-img-top" alt="Devstagram" />
+                            <div class="card-body">
+                                <h5 class="card-title">{{ $post->titulo }}</h5>
+                                <p class="card-text">
+                                    <!--<small class="text-info"></small>-->
+                                    <small class="text-muted">{{ $post->created_at->diffForHumans() }}</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+
+            </div>
+        </div>
     </div>
-  </div>
-
-  <!-- Submit button -->
-  <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
-
-  <!-- Register buttons -->
-  <div class="text-center">
-    <p>Not a member? <a href="#!">Register</a></p>
-    <p>or sign up with:</p>
-    <button type="button" class="btn btn-secondary btn-floating mx-1">
-      <i class="fab fa-facebook-f"></i>
-    </button>
-
-    <button type="button" class="btn btn-secondary btn-floating mx-1">
-      <i class="fab fa-google"></i>
-    </button>
-
-    <button type="button" class="btn btn-secondary btn-floating mx-1">
-      <i class="fab fa-twitter"></i>
-    </button>
-
-    <button type="button" class="btn btn-secondary btn-floating mx-1">
-      <i class="fab fa-github"></i>
-    </button>
-  </div>
-</form>
 @endsection
