@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="{{asset('css/mdb.min.css')}}">
      <link rel="stylesheet" href="{{asset('css/icons.imn.css')}}">
      <script src="{{asset('js/mdb.min.js')}}"></script>
-     
+
 </head>
 <body>
   <header>
@@ -18,7 +18,7 @@
       #intro-example {
         height: 400px;
       }
-  
+
       /* Height for devices larger than 992px */
       @media (min-width: 992px) {
         #intro-example {
@@ -26,7 +26,7 @@
         }
       }
     </style>
-  
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container-fluid">
@@ -60,14 +60,14 @@
       </div>
     </nav>
     <!-- Navbar -->
-  
+
     <!-- Background image -->
     <div
       id="intro-example"
       class="p-5 text-center bg-image"
-      style="background-image: url('https://uvg.edu.mx/blog/wp-content/uploads/2020/05/original-9e84128f1358bca28137f6b81aaa0c91.jpg');"
+      style="background-image: url('https://www.ionos.es/startupguide/fileadmin/_processed_/3/d/csm_MVP_t_ebaf673698.jpg');"
     >
-      <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.5);">
         <div class="d-flex justify-content-center align-items-center h-100">
           <div class="text-white">
             <h1 class="mb-3">¡Bienvenido!  </h1>
@@ -219,7 +219,7 @@
   </div>
   <!-- Copyright -->
 </footer>
-<!-- Footer 
+<!-- Footer
 <script src="https://kit.fontawesome.com/be8188392f.js" crossorigin="anonymous"></script>-->
 </body>
 </html>
